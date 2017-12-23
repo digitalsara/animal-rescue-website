@@ -1,0 +1,14 @@
+html {
+
+}
+
+.wordmark {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.wordmark img {
+  max-width: 200px;
+  min-width: 150px;
+  width: 70%;
+}
