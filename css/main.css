@@ -1,5 +1,6 @@
 html {
-
+  background-color: #f2f1ed;
+  font-family: "Open Sans", sans-serif;
 }
 
 .wordmark {
@@ -11,4 +12,8 @@ html {
   max-width: 200px;
   min-width: 150px;
   width: 70%;
+}
+
+nav {
+  font-family: 'Sintony', sans-serif;
 }
