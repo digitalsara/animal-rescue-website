@@ -121,10 +121,30 @@ footer a {
   color: #fff;
 }
 
+.connect {
+  border-left: none;
+  border-top: 1px solid #fff;
+  padding-left: 0;
+  padding-top: 1.2em;
+  height: 8em;
+}
+
 @media only screen and (min-width: 60em) {
 
   header nav {
     text-align: left;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  .connect {
+    border-top: none;
+    border-left: 1px solid #fff;
+    height: 11em;
+    padding-left: 5%;
+    padding-top: 0;
   }
 
 }
