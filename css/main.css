@@ -3,6 +3,20 @@ html {
   font-family: "Open Sans", sans-serif;
 }
 
+.max-width {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#content > .grid,
+#about > .grid {
+  margin-bottom: 6em;
+}
+
+.red {
+  color: #E1533C;
+}
+
 .wordmark {
   text-align: center;
   margin: 0 auto;
@@ -72,6 +86,26 @@ header nav li a:hover {
   margin-top: 6em;
   color: #fff;
   text-shadow: 0 0 8px #000;
+}
+
+.clip-left {
+  -webkit-clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+  clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+}
+
+.clip-right {
+  -webkit-clip-path: polygon(25% 0%, 100% 1%, 100% 100%, 25% 100%, 0% 50%);
+  clip-path: polygon(25% 0%, 100% 1%, 100% 100%, 25% 100%, 0% 50%);
+}
+
+.main-ol {
+  color: #E1533C;
+  font-weight: bold;
+}
+
+.main-ol p {
+  color: #000;
+  font-weight: normal;
 }
 
 @media only screen and (min-width: 90em) {
