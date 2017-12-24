@@ -3,13 +3,17 @@ html {
   font-family: "Open Sans", sans-serif;
 }
 
+#about {
+  padding: 1.5em;
+}
+
 .max-width {
   max-width: 1200px;
   margin: 0 auto;
 }
 
-#content > .grid,
-#about > .grid {
+#about > .grid,
+#content > .grid {
   margin-bottom: 6em;
 }
 
@@ -108,8 +112,13 @@ header nav li a:hover {
   font-weight: normal;
 }
 
-@media only screen and (min-width: 90em) {
+footer {
+  background-color: #942A19;
+  color: #fff;
+}
 
+footer a {
+  color: #fff;
 }
 
 @media only screen and (min-width: 60em) {
