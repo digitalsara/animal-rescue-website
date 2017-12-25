@@ -4,7 +4,7 @@ html {
 }
 
 #about {
-  padding: 1.5em;
+  /*padding: 1.5em;*/
 }
 
 .max-width {
@@ -14,7 +14,7 @@ html {
 
 #about > .grid,
 #content > .grid {
-  margin-bottom: 6em;
+  margin-bottom: 2.5em;
 }
 
 .red {
@@ -60,6 +60,7 @@ header nav li a:hover {
 .banner-container {
   width: 100%;
   padding: 300px 0;
+  margin-bottom: .5em;
   background-image: url("../images/cat-lady.jpg");
   background-position: center center;
   background-repeat: no-repeat;
@@ -92,7 +93,7 @@ header nav li a:hover {
   text-shadow: 0 0 8px #000;
 }
 
-.clip-left {
+/*.clip-left {
   -webkit-clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
   clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
 }
@@ -100,7 +101,7 @@ header nav li a:hover {
 .clip-right {
   -webkit-clip-path: polygon(25% 0%, 100% 1%, 100% 100%, 25% 100%, 0% 50%);
   clip-path: polygon(25% 0%, 100% 1%, 100% 100%, 25% 100%, 0% 50%);
-}
+}*/
 
 .main-ol {
   color: #E1533C;
@@ -135,6 +136,11 @@ footer a {
     text-align: left;
   }
 
+  #about > .grid,
+  #content > .grid {
+    margin-bottom: 6em;
+  }
+
 }
 
 @media only screen and (min-width: 38em) {
@@ -145,6 +151,10 @@ footer a {
     height: 11em;
     padding-left: 5%;
     padding-top: 0;
+  }
+
+  .banner-container {
+    margin-bottom: 1em;
   }
 
 }
