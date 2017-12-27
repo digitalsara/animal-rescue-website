@@ -52,18 +52,18 @@ header nav li a:hover {
 }
 
 /* BANNER */
+
 .banner-container {
   width: 100%;
   padding: 160px 0;
   margin-bottom: .5em;
-  background-image: url("../images/cat-lady.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   position: relative;
   background-size: cover;
 }
 
-.banner-container::before {
+.banner-container::before{
   background: rgba(0, 0, 0, 0)
   -webkit-linear-gradient(top left, rgba(19, 47, 86, .8) 0%, rgba(36, 87, 160, .3) 100%) repeat;
   content: "";
@@ -73,6 +73,14 @@ header nav li a:hover {
   left: 0;
   top: 0;
   width: 100%;
+}
+
+.banner-home {
+  background-image: url("../images/cat-lady.jpg");
+}
+
+.banner-animals {
+  background-image: url("../images/dog-blanket.jpg");
 }
 
 .banner-wrapper h1 {
