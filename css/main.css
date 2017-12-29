@@ -111,6 +111,16 @@ header nav li a:hover {
   font-weight: normal;
 }
 
+.pet {
+  /*width: 22%;*/
+}
+
+.pet img {
+  object-fit: cover;
+  width: 270px;
+  height: 270px;
+}
+
 footer {
   background-color: #942A19;
   color: #fff;
