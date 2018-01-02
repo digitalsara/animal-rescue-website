@@ -14,7 +14,7 @@ html {
 }
 
 .red {
-  color: #E1533C;
+  color: #e1533c;
 }
 
 .wordmark {
@@ -30,7 +30,7 @@ html {
 
 header nav {
   text-align: center;
-  font-family: 'Sintony', sans-serif;
+  font-family: "Sintony", sans-serif;
 }
 
 header nav li {
@@ -40,14 +40,14 @@ header nav li {
 }
 
 header nav li a {
-  color: #204A94;
+  color: #204a94;
   margin-right: 0;
   text-decoration: none;
   transition-timing-function: ease;
 }
 
 header nav li a:hover {
-  border-bottom: 3px solid #E1533C;
+  border-bottom: 3px solid #e1533c;
   transition: .25s;
 }
 
@@ -64,8 +64,8 @@ header nav li a:hover {
 }
 
 .banner-container:before{
-  background: rgba(0, 0, 0, 0)
-  -webkit-linear-gradient(top left, rgba(19, 47, 86, .8) 0%, rgba(36, 87, 160, .3) 100%) repeat;
+  background:
+  rgba(0, 0, 0, 0) -webkit-linear-gradient(top left, rgba(19, 47, 86, .8) 0%, rgba(36, 87, 160, .3) 100%) repeat;
   content: "";
   position: absolute;
   display: block;
@@ -90,7 +90,7 @@ header nav li a:hover {
 .banner-wrapper h1 {
   margin-top: .5em;
   color: #fff;
-  font-family: 'Sintony', sans-serif;
+  font-family: "Sintony", sans-serif;
   text-shadow: 0 0 8px #000;
 }
 
@@ -102,17 +102,13 @@ header nav li a:hover {
 }
 
 .main-ol {
-  color: #E1533C;
+  color: #e1533c;
   font-weight: bold;
 }
 
 .main-ol p {
   color: #000;
   font-weight: normal;
-}
-
-.pet {
-  /*width: 22%;*/
 }
 
 .pet img {
@@ -122,7 +118,7 @@ header nav li a:hover {
 }
 
 footer {
-  background-color: #942A19;
+  background-color: #942a19;
   color: #fff;
 }
 
@@ -140,14 +136,14 @@ footer a {
 
 .btn {
   background:
-  rgba(0, 0, 0, 0)-webkit-linear-gradient(top, rgba(225, 83, 60, 1) 20%, rgba(148, 42, 25, 1) 100%) repeat;
+  rgba(0, 0, 0, 0) -webkit-linear-gradient(top, rgba(225, 83, 60, 1) 20%, rgba(148, 42, 25, 1) 100%) repeat;
   border: none;
   color: #fff;
 }
 
 .btn:hover {
   background:
-  rgba(0, 0, 0, 0)-webkit-linear-gradient(top, rgba(148, 42, 25, 1) 20%, rgba(148, 42, 25, 1) 100%) repeat;
+  rgba(0, 0, 0, 0) -webkit-linear-gradient(top, rgba(148, 42, 25, 1) 20%, rgba(148, 42, 25, 1) 100%) repeat;
   color: #fff;
 }
 
@@ -201,7 +197,6 @@ footer a {
 
   header nav ul li {
     display: inline;
-    margin: 0 1em;
+    padding: 0 1em;
   }
-
 }
