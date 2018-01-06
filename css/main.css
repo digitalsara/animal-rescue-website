@@ -101,14 +101,8 @@ header nav li a:hover {
   max-width: 38em;
 }
 
-.main-ol {
-  color: #e1533c;
-  font-weight: bold;
-}
-
 .main-ol p {
   color: #000;
-  font-weight: normal;
 }
 
 .pet img {
