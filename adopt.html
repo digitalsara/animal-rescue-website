@@ -18,7 +18,7 @@
     <li><a href="#nav">Jump to nav</a></li>
     <li><a href="#main">Jump to main</a></li>
     <li><a href="#content">Jump to content</a></li>
-    <li><a href="#about">Jump to about</a></li>
+    <li><a href="#form">Jump to form</a></li>
   </ul>
 
   <header role="banner" class="max-width pad-t-1-2 pad-b-1-2">
@@ -44,8 +44,166 @@
     <section id="content">
       <div class="grid banner-container banner-rescue">
         <div class="unit banner-wrapper">
-          <h1 class="absolute island">Adopt an animal</h1>
+          <h1 class="absolute island">Considering adoptiong an animal?</h1>
           <p class="absolute island">With a few exceptions, most of the animals at the Big Sky Ranch Animal Sanctuary are available for adoption.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="form">
+      <div class="grid form-container max-width">
+        <div class="unit xs-1 s-1 m-1 l-1 xl-1">
+
+          <form class="" action="index.html" method="POST">
+
+            <div class="form-intro gutter-2 pad-t-2">
+              <h2 class="red tera push-1-2">Inquire about adopting an animal</h2>
+              <p class="push-1-4">Please drop by during visiting hours to find the right animal for your home.</p>
+              <p class="micro">If you are not in the position to adopt an animal, <span class="italic">please consider <a class="red" href="rescues.html">sponsoring</a> one who has made Big Sky their permanent home.</span></p>
+            </div>
+
+            <fieldset class="wrapper push-0">
+              <legend class="giga gutter-1-2 pad-top pad-b-1-8 red">Personal contact information</legend>
+
+              <div class="grid grid-middle">
+                <div class="unit gutter-1-2 xs-1 s-1 m-1-2 l-1-2 xl-1-2 pad-bottom pad-t-1-4">
+                  <label for="name">First name</label>
+                  <input id="name" name="name" required>
+                </div>
+
+                <div class="unit gutter-1-2 xs-1 s-1 m-1-2 l-1-2 xl-1-2 pad-bottom pad-t-1-4">
+                  <label for="name">Last name</label>
+                  <input type="text" name="nickname" required>
+                </div>
+
+                <div class="unit gutter-1-2 xs-1 s-1 m-1-2 l-1-2 xl-1-2 pad-bottom pad-t-1-4">
+                  <label for="email">Email</label>
+                  <input type="email" name="email" id="email" required>
+                </div>
+
+                <div class="unit gutter-1-2 xs-1 s-1 m-1-2 l-1-2 xl-1-2 pad-bottom pad-t-1-4">
+                  <label for="number">Phone number</label>
+                  <input type="tel" name="number" id="number" required>
+                </div>
+              </div>
+            </fieldset>
+
+            <fieldset class="wrapper push-0">
+              <legend class="giga pad-b-1-8 pad-top gutter-1-2 red">Address</legend>
+
+              <div class="grid grid-middle">
+                <div class="unit gutter-1-2 xs-1 s-1 m-1-2 l-1-2 xl-1-2 pad-bottom pad-t-1-4">
+                  <label for="address">Street address</label>
+                  <input type="text" name="address" id="address">
+                </div>
+
+                <div class="unit gutter-1-2 xs-1 s-1 m-1-2 l-1-2 xl-1-2 pad-bottom pad-t-1-4">
+                  <label for="city">City</label>
+                  <input type="text" name="city" id="city">
+                </div>
+
+                <div class="unit gutter-1-2 xs-1 s-1 m-1-2 l-1-2 xl-1-2 pad-bottom pad-top">
+                  <label for="province">Province</label>
+                  <select id="province">
+                    <option>Select a province</option>
+                    <option>Alberta</option>
+                    <option>British Columbia</option>
+                    <option>Manitoba</option>
+                    <option>New Brunswick</option>
+                    <option>Newfoundland & Labrador</option>
+                    <option>Northwest Territories</option>
+                    <option>Nova Scotia</option>
+                    <option>Nunavut</option>
+                    <option>Ontario</option>
+                    <option>Prince Edward Island</option>
+                    <option>Québec</option>
+                    <option>Saskatchewan</option>
+                    <option>Yukon</option>
+                  </select>
+                </div>
+
+                <div class="unit gutter-1-2 xs-1 s-1 m-1-2 l-1-2 xl-1-2 pad-b-1-2 pad-t-1-2">
+                  <label for="postal">Postal code</label>
+                  <input type="text" minlength="6" id="postal">
+                </div>
+              </div>
+            </fieldset>
+
+            <fieldset class="wrapper push-0 gutter-1-2 radio">
+              <legend class="giga pad-top pad-b-1-2 red">Have you ever owned a pet?</legend>
+              <div class="grid grid-middle">
+                <div class="unit pad-bottom">
+                  <input type="radio" id="pet-y" name="check-1">
+                  <label for="pet-y">Yes</label>
+                  <input type="radio" id="pet-n" name="check-1">
+                  <label for="pet-n">No</label>
+                </div>
+              </div>
+            </fieldset>
+
+            <fieldset class="wrapper push-0 gutter-1-2 radio">
+              <legend class="giga pad-top pad-b-1-2 red">Are you considering this adoption to be for livestock?</legend>
+              <div class="grid grid-middle">
+                <div class="unit pad-bottom">
+                  <input type="radio" id="drive-y" name="check-2">
+                  <label for="drive-y">Yes</label>
+                  <input type="radio" id="drive-n" name="check-2">
+                  <label for="drive-n">No</label>
+                </div>
+              </div>
+            </fieldset>
+
+            <fieldset class="wrapper gutter-1-2">
+              <legend class="giga pad-top pad-b-1-2 red">Which animal(s) are you inquiring for?</legend>
+              <div class="grid grid-stretch">
+                <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
+                  <div class="push-1-4">
+                    <input id="milo" type="checkbox">
+                    <label for="milo">Milo</label>
+                  </div>
+
+                  <div class="push-1-4">
+                    <input id="jeep" type="checkbox">
+                    <label for="jeep">Jeep</label>
+                  </div>
+
+                  <div class="push-1-4">
+                    <input id="jack" type="checkbox">
+                    <label for="jack">Jack</label>
+                  </div>
+                </div>
+                <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
+                  <div class="push-1-4">
+                    <input id="stacey" type="checkbox">
+                    <label for="stacey">Stacey</label>
+                  </div>
+
+                  <div class="push-1-4">
+                    <input id="faun" type="checkbox">
+                    <label for="faun">Faun</label>
+                  </div>
+
+                  <div class="push-1-4">
+                    <input id="cassie" type="checkbox">
+                    <label for="cassie">Cassie</label>
+                  </div>
+
+                </div>
+              </div>
+            </fieldset>
+
+            <fieldset class="wrapper gutter-1-2 pad-b-2">
+              <legend class="giga pad-top pad-b-1-2 red">Please let us know if you have any comments or concerns <span class="italic">(optional)</span></legend>
+              <div class="unit">
+                <textarea id="questions" name="name" rows="8" cols="80"></textarea>
+              </div>
+            </fieldset>
+
+            <div class="text-center pad-b-2 pad-top tera">
+              <button class="btn" type="submit">Inquire</button>
+            </div>
+          </form>
+
         </div>
       </div>
     </section>
