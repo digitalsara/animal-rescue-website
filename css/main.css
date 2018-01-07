@@ -17,6 +17,10 @@ html {
   color: #e1533c;
 }
 
+.black {
+  color: #000;
+}
+
 .wordmark {
   text-align: center;
   margin: 0 auto;
@@ -140,6 +144,19 @@ header nav li a:hover {
   color: #fff;
 }
 
+.icons-container img {
+  margin: 0 auto;
+  border: 6px solid #942a19;
+  border-radius: 50%;
+  padding: .25em;
+  min-width: 150px;
+  width: 50%;
+}
+
+.icons-container {
+  padding-bottom: 4em;
+}
+
 fieldset {
   border: 0;
 }
@@ -162,7 +179,7 @@ form select {
 
   #about > .grid,
   #content > .grid {
-    margin-bottom: 6em;
+    margin-bottom: 3.5em;
   }
 
   .banner-container {
