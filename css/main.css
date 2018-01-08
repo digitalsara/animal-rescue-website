@@ -144,17 +144,18 @@ header nav li a:hover {
   color: #fff;
 }
 
-.icons-container img {
-  margin: 0 auto;
-  border: 6px solid #942a19;
-  border-radius: 50%;
-  padding: .25em;
-  min-width: 150px;
-  width: 50%;
+.icons-container {
+  padding-bottom: .5em;
 }
 
-.icons-container {
-  padding-bottom: 4em;
+.icons-container img {
+  margin: 0 auto;
+  border: 4px solid #942a19;
+  border-radius: 50%;
+  padding: .25em;
+  margin-bottom: 1.5em;
+  max-width: 70px;
+  width: 90px;
 }
 
 fieldset {
@@ -213,6 +214,19 @@ form select {
 
   .banner-container {
     margin-bottom: 1em;
+  }
+
+  .icons-container img {
+    border: 6px solid #942a19;
+    border-radius: 50%;
+    padding: .25em;
+    min-width: 55%;
+    /*max-width: 300px;*/
+    /*width: 20%;*/
+  }
+
+  .icons-container {
+    padding-bottom: 1em;
   }
 
 }
