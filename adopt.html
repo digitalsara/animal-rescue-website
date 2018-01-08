@@ -68,26 +68,15 @@
       <div class="grid form-container max-width">
         <div class="unit xs-1 s-1 m-1 l-1 xl-1">
 
-          <!-- <div class="form-intro gutter-2 pad-bottom">
-            <h2 class="red tera push-1-2">Inquire about adopting an animal</h2>
-            <p class="push-1-4">Please drop by during visiting hours to find the right animal for your home.</p>
-            <p class="micro">If you are not in the position to adopt an animal, <span class="italic">please consider <a class="red" href="rescues.html">sponsoring</a> one who has made Big Sky their permanent home.</span></p>
-          </div> -->
-
-          <form class="" action="index.html" method="POST">
+          <form action="index.html" method="POST">
 
             <fieldset class="wrapper push-0">
               <legend class="giga gutter-1-2 pad-t-2 pad-b-1-8 red">Personal contact information</legend>
 
               <div class="grid grid-middle">
-                <div class="unit gutter-1-2 xs-1 s-1 m-1-2 l-1-2 xl-1-2 pad-bottom pad-t-1-4">
-                  <label for="name">First name</label>
-                  <input id="name" name="name" required>
-                </div>
-
-                <div class="unit gutter-1-2 xs-1 s-1 m-1-2 l-1-2 xl-1-2 pad-bottom pad-t-1-4">
-                  <label for="name">Last name</label>
-                  <input type="text" name="nickname" required>
+                <div class="unit gutter-1-2 xs-1 s-1 m-1 l-1 xl-1 pad-bottom pad-t-1-4">
+                  <label for="name">Full name</label>
+                  <input id="name" name="name">
                 </div>
 
                 <div class="unit gutter-1-2 xs-1 s-1 m-1-2 l-1-2 xl-1-2 pad-bottom pad-t-1-4">
@@ -210,11 +199,12 @@
               <legend class="giga pad-top pad-b-1-2 red">Please let us know if you have any comments or concerns <span class="italic">(optional)</span></legend>
               <div class="unit">
                 <textarea id="questions" name="name" rows="8" cols="80"></textarea>
+                <label for="questions" aria-label="Text area to ask any questions" class="italic micro">We will answer you within 2 business days.</label>
               </div>
             </fieldset>
 
             <div class="text-center pad-b-2 pad-t-0 tera">
-              <button class="btn" type="submit">Inquire</button>
+              <button class="btn btn-ghost" type="submit">Inquire</button>
             </div>
           </form>
 

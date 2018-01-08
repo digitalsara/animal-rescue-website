@@ -119,7 +119,7 @@ header nav li a:hover {
 
 .pet {
   background-color: #fff;
-  border-radius: 0px;
+  border-radius: 0;
   margin: 0 auto;
   margin-bottom: 2.5em;
   padding: 2.5em;
@@ -131,8 +131,6 @@ header nav li a:hover {
   margin: 0 auto;
   margin-bottom: 1em;
   object-fit: cover;
-  height: 300px;
-  width: 270px;
 }
 
 .connect {
