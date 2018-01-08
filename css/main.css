@@ -17,6 +17,10 @@ html {
   color: #e1533c;
 }
 
+.white {
+  color: #fff;
+}
+
 .black {
   color: #000;
 }
@@ -127,7 +131,6 @@ header nav li a:hover {
 }
 
 .pet img {
-  border-radius: 8px;
   margin: 0 auto;
   margin-bottom: 1em;
   object-fit: cover;
