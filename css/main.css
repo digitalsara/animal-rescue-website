@@ -117,10 +117,22 @@ header nav li a:hover {
   color: #000;
 }
 
+.pet {
+  background-color: #fff;
+  border-radius: 0px;
+  margin: 0 auto;
+  margin-bottom: 2.5em;
+  padding: 2.5em;
+  width: 100%;
+}
+
 .pet img {
+  border-radius: 8px;
+  margin: 0 auto;
+  margin-bottom: 1em;
   object-fit: cover;
+  height: 300px;
   width: 270px;
-  height: 270px;
 }
 
 .connect {
@@ -207,6 +219,14 @@ input[type="checkbox"] + label::before {
   .banner-container p,
   .banner-container h1 {
     padding-left: 90px;
+  }
+
+  .pet {
+    margin: 0 auto;
+    border-radius: 8px;
+    margin-bottom: 2.5em;
+    background-color: #fff;
+    width: 45%;
   }
 
 }
