@@ -172,12 +172,11 @@ form textarea {
   border-radius: 8px;
 }
 
-input[type=radio] + label:before {
+input[type="radio"] + label::before {
   border: 2px solid #ccc;
 }
 
-
-input[type=checkbox] + label:before {
+input[type="checkbox"] + label::before {
   border: 2px solid #ccc;
   border-radius: 8px;
 }
@@ -235,8 +234,6 @@ input[type=checkbox] + label:before {
     border-radius: 50%;
     padding: .25em;
     min-width: 55%;
-    /*max-width: 300px;*/
-    /*width: 20%;*/
   }
 
   .icons-container {
