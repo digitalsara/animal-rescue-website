@@ -42,7 +42,16 @@ footer {
 }
 
 footer a {
+  text-decoration: none;
+  border-bottom: 1px solid #fff;
+  transition: .25s;
   color: #fff;
+}
+
+footer a:hover {
+  text-decoration: none;
+  border-bottom: 3px solid #e1533c;
+  transition: .25s;
 }
 
 header nav {
