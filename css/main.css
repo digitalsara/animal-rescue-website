@@ -48,12 +48,6 @@ footer a {
   color: #fff;
 }
 
-footer a:hover {
-  text-decoration: none;
-  border-bottom: 3px solid #e1533c;
-  transition: .25s;
-}
-
 header nav {
   text-align: center;
   font-family: Sintony, sans-serif;
@@ -70,6 +64,12 @@ header nav li a {
   margin-right: 0;
   text-decoration: none;
   transition-timing-function: ease;
+}
+
+footer a:hover {
+  text-decoration: none;
+  border-bottom: 3px solid #e1533c;
+  transition: .25s;
 }
 
 header nav li a:hover {
